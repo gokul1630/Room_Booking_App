@@ -1,0 +1,33 @@
+.name-link {
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: blue;
+  &:hover {
+    color: rgb(154, 154, 216);
+  }
+}
+.room-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.room-price {
+  font-size: 1rem;
+}
+.description-img {
+  max-width: 30rem;
+  max-height: 20rem;
+}
+.room-name {
+  font-size: 2.5rem;
+}
+.room-desc-price {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.room-desc,
+.room-name,
+.room-desc-price {
+  margin-left: 1.5rem;
+  text-align: left;
+}
